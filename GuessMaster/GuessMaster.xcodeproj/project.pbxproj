@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B3F13F81B8CEDCC00089B5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3F13F71B8CEDCC00089B5E /* AppDelegate.swift */; };
+		4B3F13FA1B8CEDCC00089B5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3F13F91B8CEDCC00089B5E /* ViewController.swift */; };
+		4B3F13FD1B8CEDCC00089B5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3F13FB1B8CEDCC00089B5E /* Main.storyboard */; };
+		4B3F13FF1B8CEDCC00089B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3F13FE1B8CEDCC00089B5E /* Assets.xcassets */; };
+		4B3F14021B8CEDCC00089B5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3F14001B8CEDCC00089B5E /* LaunchScreen.storyboard */; };
+		4B3F140D1B8CEDCC00089B5E /* GuessMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3F140C1B8CEDCC00089B5E /* GuessMasterTests.swift */; };
+		4B3F14181B8CEDCC00089B5E /* GuessMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3F14171B8CEDCC00089B5E /* GuessMasterUITests.swift */; };
+		4B3F14261B8CEEFA00089B5E /* whatisinyourmind.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3F14251B8CEEFA00089B5E /* whatisinyourmind.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B3F14091B8CEDCC00089B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3F13EC1B8CEDCC00089B5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B3F13F31B8CEDCC00089B5E;
+			remoteInfo = GuessMaster;
+		};
+		4B3F14141B8CEDCC00089B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3F13EC1B8CEDCC00089B5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B3F13F31B8CEDCC00089B5E;
+			remoteInfo = GuessMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B3F13F41B8CEDCC00089B5E /* GuessMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3F13F71B8CEDCC00089B5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B3F13F91B8CEDCC00089B5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B3F13FC1B8CEDCC00089B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B3F13FE1B8CEDCC00089B5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B3F14011B8CEDCC00089B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B3F14031B8CEDCC00089B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3F14081B8CEDCC00089B5E /* GuessMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3F140C1B8CEDCC00089B5E /* GuessMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessMasterTests.swift; sourceTree = "<group>"; };
+		4B3F140E1B8CEDCC00089B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3F14131B8CEDCC00089B5E /* GuessMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3F14171B8CEDCC00089B5E /* GuessMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessMasterUITests.swift; sourceTree = "<group>"; };
+		4B3F14191B8CEDCC00089B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3F14251B8CEEFA00089B5E /* whatisinyourmind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whatisinyourmind.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B3F13F11B8CEDCC00089B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3F14051B8CEDCC00089B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3F14101B8CEDCC00089B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B3F13EB1B8CEDCC00089B5E = {
+			isa = PBXGroup;
+			children = (
+				4B3F13F61B8CEDCC00089B5E /* GuessMaster */,
+				4B3F140B1B8CEDCC00089B5E /* GuessMasterTests */,
+				4B3F14161B8CEDCC00089B5E /* GuessMasterUITests */,
+				4B3F13F51B8CEDCC00089B5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B3F13F51B8CEDCC00089B5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B3F13F41B8CEDCC00089B5E /* GuessMaster.app */,
+				4B3F14081B8CEDCC00089B5E /* GuessMasterTests.xctest */,
+				4B3F14131B8CEDCC00089B5E /* GuessMasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B3F13F61B8CEDCC00089B5E /* GuessMaster */ = {
+			isa = PBXGroup;
+			children = (
+				4B3F14251B8CEEFA00089B5E /* whatisinyourmind.png */,
+				4B3F13F71B8CEDCC00089B5E /* AppDelegate.swift */,
+				4B3F13F91B8CEDCC00089B5E /* ViewController.swift */,
+				4B3F13FB1B8CEDCC00089B5E /* Main.storyboard */,
+				4B3F13FE1B8CEDCC00089B5E /* Assets.xcassets */,
+				4B3F14001B8CEDCC00089B5E /* LaunchScreen.storyboard */,
+				4B3F14031B8CEDCC00089B5E /* Info.plist */,
+			);
+			path = GuessMaster;
+			sourceTree = "<group>";
+		};
+		4B3F140B1B8CEDCC00089B5E /* GuessMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B3F140C1B8CEDCC00089B5E /* GuessMasterTests.swift */,
+				4B3F140E1B8CEDCC00089B5E /* Info.plist */,
+			);
+			path = GuessMasterTests;
+			sourceTree = "<group>";
+		};
+		4B3F14161B8CEDCC00089B5E /* GuessMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B3F14171B8CEDCC00089B5E /* GuessMasterUITests.swift */,
+				4B3F14191B8CEDCC00089B5E /* Info.plist */,
+			);
+			path = GuessMasterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B3F13F31B8CEDCC00089B5E /* GuessMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3F141C1B8CEDCC00089B5E /* Build configuration list for PBXNativeTarget "GuessMaster" */;
+			buildPhases = (
+				4B3F13F01B8CEDCC00089B5E /* Sources */,
+				4B3F13F11B8CEDCC00089B5E /* Frameworks */,
+				4B3F13F21B8CEDCC00089B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessMaster;
+			productName = GuessMaster;
+			productReference = 4B3F13F41B8CEDCC00089B5E /* GuessMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B3F14071B8CEDCC00089B5E /* GuessMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3F141F1B8CEDCC00089B5E /* Build configuration list for PBXNativeTarget "GuessMasterTests" */;
+			buildPhases = (
+				4B3F14041B8CEDCC00089B5E /* Sources */,
+				4B3F14051B8CEDCC00089B5E /* Frameworks */,
+				4B3F14061B8CEDCC00089B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B3F140A1B8CEDCC00089B5E /* PBXTargetDependency */,
+			);
+			name = GuessMasterTests;
+			productName = GuessMasterTests;
+			productReference = 4B3F14081B8CEDCC00089B5E /* GuessMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B3F14121B8CEDCC00089B5E /* GuessMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3F14221B8CEDCC00089B5E /* Build configuration list for PBXNativeTarget "GuessMasterUITests" */;
+			buildPhases = (
+				4B3F140F1B8CEDCC00089B5E /* Sources */,
+				4B3F14101B8CEDCC00089B5E /* Frameworks */,
+				4B3F14111B8CEDCC00089B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B3F14151B8CEDCC00089B5E /* PBXTargetDependency */,
+			);
+			name = GuessMasterUITests;
+			productName = GuessMasterUITests;
+			productReference = 4B3F14131B8CEDCC00089B5E /* GuessMasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B3F13EC1B8CEDCC00089B5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = MotleyTech;
+				TargetAttributes = {
+					4B3F13F31B8CEDCC00089B5E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					4B3F14071B8CEDCC00089B5E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4B3F13F31B8CEDCC00089B5E;
+					};
+					4B3F14121B8CEDCC00089B5E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4B3F13F31B8CEDCC00089B5E;
+					};
+				};
+			};
+			buildConfigurationList = 4B3F13EF1B8CEDCC00089B5E /* Build configuration list for PBXProject "GuessMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B3F13EB1B8CEDCC00089B5E;
+			productRefGroup = 4B3F13F51B8CEDCC00089B5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B3F13F31B8CEDCC00089B5E /* GuessMaster */,
+				4B3F14071B8CEDCC00089B5E /* GuessMasterTests */,
+				4B3F14121B8CEDCC00089B5E /* GuessMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B3F13F21B8CEDCC00089B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3F14021B8CEDCC00089B5E /* LaunchScreen.storyboard in Resources */,
+				4B3F14261B8CEEFA00089B5E /* whatisinyourmind.png in Resources */,
+				4B3F13FF1B8CEDCC00089B5E /* Assets.xcassets in Resources */,
+				4B3F13FD1B8CEDCC00089B5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3F14061B8CEDCC00089B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3F14111B8CEDCC00089B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B3F13F01B8CEDCC00089B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3F13FA1B8CEDCC00089B5E /* ViewController.swift in Sources */,
+				4B3F13F81B8CEDCC00089B5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3F14041B8CEDCC00089B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3F140D1B8CEDCC00089B5E /* GuessMasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3F140F1B8CEDCC00089B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3F14181B8CEDCC00089B5E /* GuessMasterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B3F140A1B8CEDCC00089B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B3F13F31B8CEDCC00089B5E /* GuessMaster */;
+			targetProxy = 4B3F14091B8CEDCC00089B5E /* PBXContainerItemProxy */;
+		};
+		4B3F14151B8CEDCC00089B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B3F13F31B8CEDCC00089B5E /* GuessMaster */;
+			targetProxy = 4B3F14141B8CEDCC00089B5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B3F13FB1B8CEDCC00089B5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3F13FC1B8CEDCC00089B5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B3F14001B8CEDCC00089B5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3F14011B8CEDCC00089B5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B3F141A1B8CEDCC00089B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B3F141B1B8CEDCC00089B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B3F141D1B8CEDCC00089B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuessMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MotleyTech.GuessMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B3F141E1B8CEDCC00089B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuessMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MotleyTech.GuessMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B3F14201B8CEDCC00089B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GuessMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MotleyTech.GuessMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessMaster.app/GuessMaster";
+			};
+			name = Debug;
+		};
+		4B3F14211B8CEDCC00089B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GuessMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MotleyTech.GuessMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessMaster.app/GuessMaster";
+			};
+			name = Release;
+		};
+		4B3F14231B8CEDCC00089B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GuessMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MotleyTech.GuessMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GuessMaster;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4B3F14241B8CEDCC00089B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GuessMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MotleyTech.GuessMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GuessMaster;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B3F13EF1B8CEDCC00089B5E /* Build configuration list for PBXProject "GuessMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3F141A1B8CEDCC00089B5E /* Debug */,
+				4B3F141B1B8CEDCC00089B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3F141C1B8CEDCC00089B5E /* Build configuration list for PBXNativeTarget "GuessMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3F141D1B8CEDCC00089B5E /* Debug */,
+				4B3F141E1B8CEDCC00089B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B3F141F1B8CEDCC00089B5E /* Build configuration list for PBXNativeTarget "GuessMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3F14201B8CEDCC00089B5E /* Debug */,
+				4B3F14211B8CEDCC00089B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B3F14221B8CEDCC00089B5E /* Build configuration list for PBXNativeTarget "GuessMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3F14231B8CEDCC00089B5E /* Debug */,
+				4B3F14241B8CEDCC00089B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B3F13EC1B8CEDCC00089B5E /* Project object */;
+}
